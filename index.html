@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" href="./images/icons8-js-48.png">
+<body>
+    <main>
+        <div class="wrap">
+        <section class="heading">
+            <p class="title">My ToDo List Project</p>
+            <p class="subtitle">Manage and Search Your Pending Tasks In Clicks!</p>
+        </section>
+
+        <section class="task-manager">
+            <div class="search-box">
+                <form class="search">
+                    <input type="text" name="task" placeholder="Search Task" autocomplete="off">
+                    <i class="bi bi-x-circle-fill reset"></i>
+                </form>
+            </div>
+            <div class="task-box">
+                <ul class="tasks">
+                </ul>
+                <form class="add">
+                    <input type="text" name="task" placeholder="Add Task" autocomplete="off">
+                    <input type="submit" value="Add">
+                </form>
+            </div>
+            <div class="message">
+                <span></span>
+                <button class="clear">Clear All</button>
+            </div>
+        </section>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
